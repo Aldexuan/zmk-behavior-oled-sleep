@@ -1,5 +1,4 @@
 # SPDX-License-Identifier: MIT
-
 config ZMK_BEHAVIOR_OLED_SLEEP
     bool "OLED Sleep Toggle Behavior"
     default y

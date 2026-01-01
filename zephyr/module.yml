@@ -1,6 +1,5 @@
-# zephyr/module.yml
 build:
   cmake: .
   kconfig: Kconfig
   settings:
-    dts_root: dts
+    dts_root: .
