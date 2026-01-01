@@ -2,7 +2,7 @@
 description: Toggle OLED display on/off
 compatible: "zmk,behavior-oled-sleep"
 
-include: zmk/behaviors/behavior.yaml  # ← 关键修改！
+include: zmk,behavior.yaml
 
 properties:
   # 无自定义属性
