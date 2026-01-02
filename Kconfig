@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: MIT
 config ZMK_BEHAVIOR_OLED_SLEEP
     bool "OLED Sleep Toggle Behavior"
+    depends on ZMK_BEHAVIOR  # ← 关键！确保 ZMK_BEHAVIOR 已启用
     default y
     help
       Adds a behavior to toggle OLED display on/off.
-
 
