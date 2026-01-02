@@ -1,8 +1,5 @@
 # SPDX-License-Identifier: MIT
 description: Toggle OLED display on/off
-compatible: "zmk,behavior-oled-sleep"
+compatible: "zmk,behaviors-oled-sleep"
 
 include: zero_param.yaml
-
-properties:
-  # 无自定义属性

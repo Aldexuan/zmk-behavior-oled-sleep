@@ -1,0 +1,16 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+/ {
+    behaviors {
+        oled_sleep: oled_sleep {
+            compatible = "zmk,behavior-oled-sleep";
+            #binding-cells = <0>;
+            display-name = "oled Toggle I/O off";
+            };
+        };
+};
+
