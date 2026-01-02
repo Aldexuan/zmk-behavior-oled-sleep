@@ -1,7 +1,6 @@
+name: zmk-behavior-oled-sleep
 build:
   cmake: .
   kconfig: Kconfig
   settings:
     dts_root: .
-    board_root: .
-
